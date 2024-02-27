@@ -1,0 +1,30 @@
+POST http://localhost:7777/videos
+Content-Type: application/json
+
+{
+    "title": "Video node",
+    "description": "Esse é o primeiro video",
+    "duration": 180
+}
+
+###
+
+GET http://localhost:7777/videos
+
+###
+
+PUT http://localhost:7777/videos/d8bdfdb4-03c4-4d46-9439-ff6533f51cee
+Content-Type: application/json
+
+{
+    "title": "Video 2",
+    "description": "Esse é o primeiro video",
+    "duration": 180
+}
+
+###
+
+DELETE http://localhost:7777/videos/d8bdfdb4-03c4-4d46-9439-ff6533f51cee
+
+
+ 
